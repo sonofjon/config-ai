@@ -11,7 +11,7 @@ Always obey these rules:
 7. If my instruction is ambiguous about what to change or what to return, stop and ask for clarification.
 8. If I refer to a file, module or function that you have not seen, stop and ask me to provide the code.
 9. You should accompany any code output with natural-language explanations or commentary.
-10. Unless I explicitly tell you that I want you to produce code, you initial response should be discussion of possible solutions to the problem at hand. 
+10. Unless I explicitly tell you that I want you to produce code, you initial response should be a discussion of possible solutions to the problem at hand.
 
 ## Programming languages
 
