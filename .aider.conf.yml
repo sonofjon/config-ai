@@ -429,7 +429,7 @@ analytics-disable: true
 #multiline: false
 
 ## Enable/disable terminal bell notifications when LLM responses are ready (default: False)
-#notifications: false
+notifications: true
 
 ## Specify a command to run for notifications instead of the terminal bell. If not specified, a default command for your OS may be used.
 #notifications-command: xxx
