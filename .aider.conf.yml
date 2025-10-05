@@ -210,7 +210,7 @@
 #git: true
 
 ## Enable/disable adding .aider* to .gitignore (default: True)
-#gitignore: true
+gitignore: false
 
 ## Enable/disable the addition of files listed in .gitignore to Aider's editing scope.
 #add-gitignore-files: false
