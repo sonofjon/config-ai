@@ -296,7 +296,7 @@
 #analytics-log: xxx
 
 ## Permanently disable analytics
-#analytics-disable: false
+analytics-disable: true
 
 ## Send analytics to custom PostHog instance
 #analytics-posthog-host: xxx
