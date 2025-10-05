@@ -1,0 +1,10 @@
+- name: anthropic/claude-4-opus-20250514
+  extra_params:
+    thinking:
+      type: enabled
+      budget_tokens: 4096
+- name: openrouter/anthropic/claude-sonnet-4
+  extra_params:
+    thinking:
+      type: enabled
+      budget_tokens: 4096
