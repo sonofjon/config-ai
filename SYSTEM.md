@@ -37,6 +37,10 @@
 1. If a test suite exist for the current code project, always keep it
    up-to-date with any code changes applied.
 
+## AI
+
+1. If an instructions, context or memory file (e.g. AGENTS.md, CLAUDE.md,
+   GEMINI.md, copilot-instructions.md or similar) exists for the current
    project, always keep it up-to-date with any code changes applied.
 
 ## Languages
