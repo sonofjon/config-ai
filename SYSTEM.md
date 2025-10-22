@@ -27,13 +27,21 @@
    style, error handling, and formatting patterns, and (c) verifying that
    new code adhere to the same rules.
 
-7. If a test suite exist for the current code project, always keep it
-   up-to-date with any code changes applied.
+## Documentation
 
-8. If a README.md or other documentation file exists for the current
+1. If a README.md or other documentation file exists for the current
    project, always keep it up-to-date with any code changes applied.
 
-## Python
+## Tests
+
+1. If a test suite exist for the current code project, always keep it
+   up-to-date with any code changes applied.
+
+   project, always keep it up-to-date with any code changes applied.
+
+## Languages
+
+### Python
 
 1. Use the "Google Python Style Guide" for programming style.
 
@@ -42,6 +50,6 @@
 
 3. Don't use type annotations in function definitions.
 
-## Emacs Lisp (elisp)
+### Emacs Lisp (elisp)
 
 1. All function arguments should be documented in the docstring.
