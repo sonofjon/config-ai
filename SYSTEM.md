@@ -18,10 +18,12 @@
    third-person present (indicative) (e.g., 'Returns the user's full
    name.').
 
-5. When you rewrite or move code, never remove code comments that were
+5. Single sentence comments should not end with a period.
+
+6. When you rewrite or move code, never remove code comments that were
    present in the original code.
 
-6. Code Consistency: Maintain strict consistency with existing code patterns
+7. Code Consistency: Maintain strict consistency with existing code patterns
    by: (a) using search tools to find similar functions before
    implementation, (b) analyzing their naming conventions, documentation
    style, error handling, and formatting patterns, and (c) verifying that
