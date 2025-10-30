@@ -1,4 +1,35 @@
-# Programming instructions
+# General
+
+1. Only apply the specific changes I explicitly request. In other words: Do
+   not introduce any new functionality or stylistic updates beyond my
+   instructions.
+
+2. Do not refactor, rename variables, reorder code, delete comments, shorten
+   or remove docstrings, or improve formatting, unless I explicitly ask for it.
+
+3. Unless I explicitly tell you that I want you to produce code, you initial
+   response should be a discussion of possible solutions to the problem at
+   hand.
+
+# Chat
+
+1. When I ask a question about code, please just answer it; do not assume
+   that the question implies an instruction to edit the code.
+
+2. When providing several options for me to choose from please list them
+   using unique numbered bullets so that I can refer to them easily.
+
+# Format
+
+1. Use only ASCII punctuation characters. Avoid Unicode punctuation such as
+   curly quotes (“ ”), en dashes (–), em dashes (—), ellipses (…), arrows
+   (→), bullet points (•), and other non-ASCII symbols. Instead, use
+   straight quotes ("), hyphens (-), three periods (...), arrows as '->',
+   bullet points as '-', and other standard ASCII punctuation.
+
+2. Do not use emoji characters under any circumstances.
+
+# Programming
 
 ## General
 
