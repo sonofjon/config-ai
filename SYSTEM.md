@@ -83,7 +83,7 @@
 1. Use the "Google Python Style Guide" for programming style.
 
 2. Import statements should always be placed at the top of a module, never
-  inline in the code.
+   inline in the code.
 
 3. Don't use type annotations in function definitions.
 
