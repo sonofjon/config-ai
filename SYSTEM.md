@@ -40,16 +40,7 @@
    'addess_str'; a class containing animal types should be named 'Animals',
    not 'AnimalsClass'.
 
-3. Always add docstrings when new functions, classes and modules (and other
-   constructs) are introduced.
-
-4. The first line of a docstring (the summary line) should be a single
-   sentence less than 80 characters long, using imperative mood (e.g.,
-   'Return the user's full name.'). Following sentences should use
-   third-person present (indicative) (e.g., 'Returns the user's full
-   name.').
-
-7. Code Consistency: Maintain strict consistency with existing code patterns
+3. Code Consistency: Maintain strict consistency with existing code patterns
    by: (a) using search tools to find similar functions before
    implementation, (b) analyzing their naming conventions, documentation
    style, error handling, and formatting patterns, and (c) verifying that
@@ -64,7 +55,18 @@
 
 ## Documentation
 
-1. If a README.md or other documentation file exists for the current
+1. Always add docstrings when new functions, classes and modules (and other
+   constructs) are introduced.
+
+2. The first line of a docstring (the summary line) should
+   be a single sentence less than 80 characters long, using imperative mood
+   (e.g., 'Return the user's full name.'). Following sentences should use
+   third-person present (indicative) (e.g., 'Returns the user's full
+   name.').
+
+3. The same rules apply to Git commits.
+
+4. If a README.md or other documentation file exists for the current
    project, always keep it up-to-date with any code changes applied.
 
 ## Tests
