@@ -1,0 +1,13 @@
+{
+  "alwaysThinkingEnabled": true,
+  "permissions": {
+    "allow": [
+      "Bash(claude config --help:*)",
+      "Read(//Users/andreas/projects/**)",
+      "Read(//Users/andreas/dotfiles/**)"
+    ],
+    "deny": [],
+    "ask": []
+  },
+  "spinnerTipsEnabled": false
+}
