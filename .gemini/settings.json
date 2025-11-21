@@ -1,7 +1,17 @@
 {
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    }
+  },
   "context": {
-    "fileName": ["AGENTS.md", "GEMINI.md"],
-    "includeDirectories": ["~/.gemini"],
+    "fileName": [
+      "AGENTS.md",
+      "GEMINI.md"
+    ],
+    "includeDirectories": [
+      "~/.gemini"
+    ],
     "loadFromIncludeDirectories": true
   }
 }
