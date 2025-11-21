@@ -6,6 +6,10 @@
       "Read(~/.emacs.d/**)",
       "Read(~/projects/**)",
       "Read(~/dotfiles/**)",
+      "WebFetch(domain:claude.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:gnu.org)",
+      "WebFetch(domain:stackexchange.com)"
     ],
     "deny": [],
     "ask": []
