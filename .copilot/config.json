@@ -1,0 +1,20 @@
+{
+  "banner": "never",
+  "last_logged_in_user": {
+    "host": "https://github.com",
+    "login": "sonofjon"
+  },
+  "logged_in_users": [
+    {
+      "host": "https://github.com",
+      "login": "sonofjon"
+    }
+  ],
+  "model": "claude-sonnet-4.5",
+  "render_markdown": true,
+  "screen_reader": false,
+  "theme": "auto",
+  "trusted_folders": [
+    "/Users/andreas/dotfiles/config-emacs"
+  ]
+}
