@@ -3,6 +3,7 @@
   "permissions": {
     "allow": [
       "Bash(claude config --help:*)",
+      "Bash(tree:*)",
       "Read(~/.emacs.d/**)",
       "Read(~/projects/**)",
       "Read(~/dotfiles/**)",
