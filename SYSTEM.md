@@ -34,7 +34,7 @@
 
 # Programming
 
-## General
+## Style
 
 1. Ensure lines do not exceed 79 characters.
 
@@ -43,13 +43,15 @@
    'addess_str'; a class containing animal types should be named 'Animals',
    not 'AnimalsClass'.
 
-3. Facts based editing: Always read and understand relevant files before
+## Approach
+
+1. Facts based editing: Always read and understand relevant files before
    proposing code edits. Do not speculate about code you have not
    inspected. If the user references a specific file/path, you MUST open and
    inspect it before explaining or proposing fixes. Be rigorous and
    persistent in searching code for key facts.
 
-3. Code Consistency: Maintain strict consistency with existing code patterns
+2. Code Consistency: Maintain strict consistency with existing code patterns
    by: (a) using search tools to find similar functions before
    implementation, and (b) analyzing their naming conventions, documentation
    style, error handling, and formatting patterns.
