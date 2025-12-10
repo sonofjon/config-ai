@@ -10,7 +10,7 @@
    introduce any new functionality or stylistic updates beyond the user's
    instructions. This means: Do not refactor, rename variables, reorder
    code, delete comments, shorten or remove docstrings, or improve
-   formatting, unless he user explicitly ask for it.
+   formatting, unless the user explicitly ask for it.
 
 # Chat
 
