@@ -82,7 +82,8 @@
 ### Commit Messages
 
 1. The same format rules apply to Git commits as for docstrings (specified
-   above).
+   above): summary line less than 80 characters in imperative mood, body
+   bullets in third-person present indicative.
 
 2. Additionally,
 
