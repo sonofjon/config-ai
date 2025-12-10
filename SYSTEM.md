@@ -28,7 +28,9 @@
    straight quotes ("), hyphens (-), three periods (...), arrows as '->',
    bullet points as '-', and other standard ASCII punctuation.
 
-2. Do not use emoji characters under any circumstances.
+2. Avoid using **bold** and *italics*.
+
+3. Do not use emoji characters under any circumstances.
 
 # Programming
 
