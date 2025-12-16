@@ -124,7 +124,9 @@
 
 1. Use the "Google Python Style Guide" for programming style.
 
-2. Import statements should always be placed at the top of a module, never
+2. Respect Ruff rules: Q000
+
+3. Import statements should always be placed at the top of a module, never
    inline in the code.
 
-3. Don't use type annotations in function definitions.
+4. Don't use type annotations in function definitions.
