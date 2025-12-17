@@ -13,5 +13,8 @@
       "~/.gemini"
     ],
     "loadFromIncludeDirectories": true
+  },
+  "general": {
+    "previewFeatures": true
   }
 }
