@@ -68,6 +68,9 @@
 2. When you rewrite or move code, never remove code comments that were
    present in the original code.
 
+3. Comments should describe the current code, not how the current code is
+   different from some earlier unknown state of the code.
+
 ### Docstrings
 
 1. Always add docstrings when new functions, classes and modules (and other
