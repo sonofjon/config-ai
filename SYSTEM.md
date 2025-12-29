@@ -99,6 +99,8 @@
 
     2.2 The body of the commit should be listed as bullets.
 
+    2.3 Wrap all body lines at 72 characters.
+
 ## Maintenance
 
 ### AI
