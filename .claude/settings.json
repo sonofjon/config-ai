@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(claude config --help:*)",
+      "Bash(grep:*)",
       "Bash(tree:*)",
+      "mcp__elisp-dev__elisp-describe-function",
+      "mcp__elisp-dev__elisp-describe-variable",
+      "mcp__elisp-dev__elisp-info-lookup-symbol",
       "Read(~/.emacs.d/**)",
       "Read(~/projects/**)",
       "Read(~/dotfiles/**)",
