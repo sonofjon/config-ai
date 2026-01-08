@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(claude config --help:*)",
+      "Bash(cat:*)",
       "Bash(grep:*)",
+      "Bash(ls:*)",
+      "Bash(python -m unittest:*)",
+      "Bash(python3 -m unittest:*)",
       "Bash(ruff check:*)",
       "Bash(tree:*)",
       "mcp__elisp-dev__elisp-describe-function",
@@ -14,7 +18,8 @@
       "WebFetch(domain:claude.com)",
       "WebFetch(domain:github.com)",
       "WebFetch(domain:gnu.org)",
-      "WebFetch(domain:stackexchange.com)"
+      "WebFetch(domain:stackexchange.com)",
+      "WebSearch"
     ],
     "deny": [],
     "ask": []
