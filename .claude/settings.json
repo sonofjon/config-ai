@@ -3,6 +3,7 @@
     "allow": [
       "Bash(claude config --help:*)",
       "Bash(grep:*)",
+      "Bash(ruff check:*)",
       "Bash(tree:*)",
       "mcp__elisp-dev__elisp-describe-function",
       "mcp__elisp-dev__elisp-describe-variable",
