@@ -8,6 +8,7 @@
       "Bash(python -m unittest:*)",
       "Bash(python3 -m unittest:*)",
       "Bash(ruff check:*)",
+      "Bash(source .venv/bin/activate)",
       "Bash(tree:*)",
       "mcp__elisp-dev__elisp-describe-function",
       "mcp__elisp-dev__elisp-describe-variable",
