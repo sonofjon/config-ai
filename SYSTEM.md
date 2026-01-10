@@ -86,7 +86,7 @@
 
 1. The same format rules apply to Git commits as for docstrings (specified
    above): summary line less than 80 characters in imperative mood, body
-   bullets in third-person present indicative.
+   in third-person present indicative.
 
 2. Additionally,
 
@@ -97,9 +97,7 @@
     "file.txt: Update category with color"
     "file.txt, ...: Update color categories everywhere"
 
-    2.2 The body of the commit should be listed as bullets.
-
-    2.3 Wrap all body lines at 72 characters.
+    2.2 Wrap all body lines at 72 characters.
 
 ## Maintenance
 
