@@ -93,26 +93,32 @@ Or configure automatic startup via `emacs-startup-hook`.
 
 ### Copilot CLI
 
-Edit `~/.copilot/config.json` and add an `mcpServers` section:
+Create or edit `~/.copilot/mcp-config.json`:
 
 ```json
 {
   "mcpServers": {
     "mcp-server": {
+      "type": "stdio",
       "command": "/home/joohv/.emacs.d/elpa/mcp-server/mcp-wrapper.sh",
-      "args": ["/home/joohv/.emacs.d/emacs-mcp-server.sock"]
+      "args": ["/home/joohv/.emacs.d/emacs-mcp-server.sock"],
+      "tools": ["*"]
     },
     "mcp-server-direct": {
+      "type": "stdio",
       "command": "socat",
-      "args": ["-", "UNIX-CONNECT:/home/joohv/.emacs.d/emacs-mcp-server.sock"]
+      "args": ["-", "UNIX-CONNECT:/home/joohv/.emacs.d/emacs-mcp-server.sock"],
+      "tools": ["*"]
     },
     "elisp-dev": {
+      "type": "stdio",
       "command": "/home/joohv/.emacs.d/emacs-mcp-stdio.sh",
       "args": [
         "--init-function=elisp-dev-mcp-enable",
         "--stop-function=elisp-dev-mcp-disable",
         "--server-id=elisp-dev-mcp"
-      ]
+      ],
+      "tools": ["*"]
     }
   }
 }
@@ -122,6 +128,9 @@ Edit `~/.copilot/config.json` and add an `mcpServers` section:
 
 Each MCP server entry requires:
 
-- **Server name**: Unique identifier
+- **type**: Transport type ("stdio" for command-based servers, "http" or
+  "sse" for URL-based)
 - **command**: Path to executable or command name
 - **args**: Array of command-line arguments
+- **tools**: Array of allowed tools (use `["*"]` to allow all tools from the
+  server)
