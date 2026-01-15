@@ -99,6 +99,8 @@
 
     2.2 Wrap all body lines at 72 characters.
 
+3. NEVER commit changes unless the user explicitly asks for it.
+
 ## Maintenance
 
 ### AI
