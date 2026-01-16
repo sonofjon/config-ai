@@ -135,3 +135,7 @@
    inline in the code.
 
 4. Don't use type annotations in function definitions.
+
+## Environment
+
+1. Emacs path: /opt/homebrew/bin/emacs
