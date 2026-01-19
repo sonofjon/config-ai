@@ -135,9 +135,3 @@
    inline in the code.
 
 4. Don't use type annotations in function definitions.
-
-## Environment
-
-1. Emacs path:
-   - macOS: /opt/homebrew/bin/emacs
-   - Linux: /snap/emacs/current/usr/share/emacs
