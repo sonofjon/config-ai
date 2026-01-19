@@ -138,4 +138,6 @@
 
 ## Environment
 
-1. Emacs path: /opt/homebrew/bin/emacs
+1. Emacs path:
+   - macOS: /opt/homebrew/bin/emacs
+   - Linux: /snap/emacs/current/usr/share/emacs
