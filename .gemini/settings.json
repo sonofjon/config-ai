@@ -32,5 +32,14 @@
         "/Users/andreas/.emacs.d/emacs-mcp-server.sock"
       ]
     }
+  },
+  "tools": {
+    "allowed": [
+      "run_shell_command(cat)",
+      "run_shell_command(find)",
+      "run_shell_command(grep)",
+      "run_shell_command(ls)",
+      "run_shell_command(which)"
+    ]
   }
 }
