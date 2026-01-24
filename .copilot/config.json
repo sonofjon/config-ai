@@ -15,8 +15,36 @@
   "screen_reader": false,
   "theme": "auto",
   "trusted_folders": [
-    "/Users/andreas/dotfiles/config-emacs",
-    "/home/joohv/projects/work/tdm.pyanon.schedule.bash",
-    "/home/joohv/projects/work/tdm.anonymization.python"
+    "/Users/andreas/.emacs.d",
+    "/Users/andreas/dotfiles",
+    "/Users/andreas/projects",
+    "/home/joohv/.emacs.d",
+    "/home/joohv/dotfiles",
+    "/home/joohv/projects"
+  ],
+  "allowed_urls": [
+    "claude.com",
+    "github.com",
+    "gnu.org",
+    "stackexchange.com"
+  ],
+  "allowed_tools": [
+    "shell(cat)",
+    "shell(copilot --help)",
+    "shell(find)",
+    "shell(git:*)",
+    "shell(grep)",
+    "shell(ls)",
+    "shell(python -m unittest:*)",
+    "shell(python3 -m unittest:*)",
+    "shell(ruff:*)",
+    "shell(source .venv/bin/activate)",
+    "shell(tree)",
+    "shell(which)",
+    "elisp-dev(elisp-describe-function)",
+    "elisp-dev(elisp-describe-variable)",
+    "elisp-dev(elisp-get-function-definition)",
+    "elisp-dev(elisp-info-lookup-symbol)",
+    "elisp-dev(elisp-read-source-file)"
   ]
 }
