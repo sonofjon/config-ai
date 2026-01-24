@@ -10,7 +10,10 @@
       "GEMINI.md"
     ],
     "includeDirectories": [
-      "~/.gemini"
+      "~/.gemini",
+      "~/.emacs.d",
+      "~/projects",
+      "~/dotfiles"
     ],
     "loadFromIncludeDirectories": true
   },
@@ -35,13 +38,26 @@
   },
   "tools": {
     "allowed": [
+      "google_web_search",
+      "web_fetch",
       "run_shell_command(cat)",
       "run_shell_command(find)",
+      "run_shell_command(gemini --help)",
       "run_shell_command(git diff)",
       "run_shell_command(git status)",
       "run_shell_command(grep)",
       "run_shell_command(ls)",
-      "run_shell_command(which)"
+      "run_shell_command(python -m unittest)",
+      "run_shell_command(python3 -m unittest)",
+      "run_shell_command(ruff check)",
+      "run_shell_command(source .venv/bin/activate)",
+      "run_shell_command(tree)",
+      "run_shell_command(which)",
+      "mcp__elisp-dev__elisp-describe-function",
+      "mcp__elisp-dev__elisp-describe-variable",
+      "mcp__elisp-dev__elisp-get-function-definition",
+      "mcp__elisp-dev__elisp-info-lookup-symbol",
+      "mcp__elisp-dev__elisp-read-source-file"
     ]
   }
 }
