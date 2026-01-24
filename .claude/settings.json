@@ -3,6 +3,8 @@
     "allow": [
       "Bash(claude config --help:*)",
       "Bash(cat:*)",
+      "Bash(git diff:*)",
+      "Bash(git status:*)",
       "Bash(grep:*)",
       "Bash(ls:*)",
       "Bash(python -m unittest:*)",
