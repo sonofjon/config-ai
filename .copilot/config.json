@@ -23,10 +23,7 @@
     "/home/joohv/projects"
   ],
   "allowed_urls": [
-    "claude.com",
-    "github.com",
-    "gnu.org",
-    "stackexchange.com"
+    "*"
   ],
   "allowed_tools": [
     "shell(cat)",
