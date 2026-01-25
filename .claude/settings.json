@@ -28,9 +28,10 @@
     "deny": [],
     "ask": []
   },
-  "spinnerTipsEnabled": false,
-  "alwaysThinkingEnabled": true,
   "enabledPlugins": {
     "pyright-lsp@claude-plugins-official": true
-  }
+  },
+  "spinnerTipsEnabled": false,
+  "alwaysThinkingEnabled": true,
+  "model": "opusplan"
 }
