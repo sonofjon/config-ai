@@ -135,3 +135,5 @@
    inline in the code.
 
 4. Don't use type annotations in function definitions.
+
+5. Don't document exceptions ("Raises") in function docstrings.
