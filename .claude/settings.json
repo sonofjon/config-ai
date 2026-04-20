@@ -16,6 +16,8 @@
       "Bash(source .venv/bin/activate)",
       "Bash(tree:*)",
       "Bash(which:*)",
+      "mcp__acp__Edit",
+      "mcp__acp__Write",
       "mcp__elisp-dev__elisp-describe-function",
       "mcp__elisp-dev__elisp-describe-variable",
       "mcp__elisp-dev__elisp-get-function-definition",
