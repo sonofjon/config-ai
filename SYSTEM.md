@@ -45,10 +45,9 @@
    inspect it before explaining or proposing fixes. Be rigorous and
    persistent in searching code for key facts.
 
-2. Code Consistency: Maintain strict consistency with existing code patterns
-   by: (a) using search tools to find similar functions before
-   implementation, and (b) analyzing their naming conventions, documentation
-   style, error handling, and formatting patterns.
+2. Code Consistency: Before and after every edit, check surrounding code,
+   documentation and comments for consistency in wording, naming
+   conventions, documentation style, and formatting patterns.
 
 ## Style
 
