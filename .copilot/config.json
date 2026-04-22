@@ -21,8 +21,8 @@
     "/home/joohv/dotfiles",
     "/home/joohv/projects"
   ],
-    "*"
   "allowedUrls": [
+    "https://docs.github.com"
   ],
   "allowed_tools": [
     "shell(cat)",
