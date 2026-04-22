@@ -24,23 +24,4 @@
   "allowedUrls": [
     "https://docs.github.com"
   ],
-  "allowed_tools": [
-    "shell(cat)",
-    "shell(copilot --help)",
-    "shell(find)",
-    "shell(git:*)",
-    "shell(grep)",
-    "shell(ls)",
-    "shell(python -m unittest:*)",
-    "shell(python3 -m unittest:*)",
-    "shell(ruff:*)",
-    "shell(source .venv/bin/activate)",
-    "shell(tree)",
-    "shell(which)",
-    "elisp-dev(elisp-describe-function)",
-    "elisp-dev(elisp-describe-variable)",
-    "elisp-dev(elisp-get-function-definition)",
-    "elisp-dev(elisp-info-lookup-symbol)",
-    "elisp-dev(elisp-read-source-file)"
-  ]
 }
