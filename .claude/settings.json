@@ -15,6 +15,7 @@
       "Bash(ruff check:*)",
       "Bash(source .venv/bin/activate)",
       "Bash(tree:*)",
+      "Bash(wc:*)",
       "Bash(which:*)",
       "mcp__acp__Edit",
       "mcp__acp__Write",
