@@ -38,5 +38,6 @@
   },
   "spinnerTipsEnabled": false,
   "alwaysThinkingEnabled": true,
-  "model": "opusplan"
+  "model": "opusplan",
+  "autoMemoryDirectory": "~/.claude/memory"
 }
