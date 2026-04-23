@@ -43,6 +43,7 @@
       "run_shell_command(cat)",
       "run_shell_command(find)",
       "run_shell_command(gemini --help)",
+      "run_shell_command(git commit)",
       "run_shell_command(git diff)",
       "run_shell_command(git status)",
       "run_shell_command(grep)",
