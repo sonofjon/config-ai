@@ -118,6 +118,11 @@
 1. If a test suite exists for the current code project, always keep it
    up-to-date with any code changes applied.
 
+2. Before adding tests, read the existing test file to determine its
+   scope. Only add tests that are consistent with what is already covered
+   there. Do not add tests for a method or behavior simply because you
+   changed it - the existing scope determines what belongs.
+
 ## Languages
 
 ### Emacs Lisp (elisp)
