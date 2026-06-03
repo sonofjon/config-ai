@@ -30,7 +30,9 @@
       "WebFetch",
       "WebSearch"
     ],
-    "deny": [],
+    "deny": [
+      "Bash(git add*)"
+    ],
     "ask": []
   },
   "enabledPlugins": {
