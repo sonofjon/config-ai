@@ -27,7 +27,7 @@
   },
   "mcpServers": {
     "elisp-dev": {
-      "command": "/Users/andreas/.emacs.d/emacs-mcp-stdio.sh",
+      "command": "/home/joohv/.emacs.d/emacs-mcp-stdio.sh",
       "args": [
         "--init-function=elisp-dev-mcp-enable",
         "--stop-function=elisp-dev-mcp-disable",
@@ -35,9 +35,9 @@
       ]
     },
     "mcp-server": {
-      "command": "/Users/andreas/.emacs.d/elpa/mcp-server/mcp-wrapper.sh",
+      "command": "/home/joohv/.emacs.d/elpa/mcp-server/mcp-wrapper.sh",
       "args": [
-        "/Users/andreas/.emacs.d/emacs-mcp-server.sock"
+        "/home/joohv/.emacs.d/emacs-mcp-server.sock"
       ]
     }
   },
