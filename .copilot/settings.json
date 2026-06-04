@@ -1,0 +1,9 @@
+{
+  "renderMarkdown": true,
+  "screenReader": false,
+  "theme": "auto",
+  "allowedUrls": [
+    "https://docs.github.com"
+  ],
+  "colorMode": "dim"
+}
