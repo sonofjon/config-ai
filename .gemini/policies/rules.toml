@@ -1,32 +1,131 @@
 # Auto-accept command rules
 
-# [[rule]]
-# toolName = "run_shell_command"
-# commandPrefix = "find"
-# decision = "allow"
-# priority = 100
+[[rule]]
+toolName = "google_web_search"
+decision = "allow"
+priority = 100
 
-# [[rule]]
-# toolName = "run_shell_command"
-# commandPrefix = "grep"
-# decision = "allow"
-# priority = 100
+[[rule]]
+toolName = "web_fetch"
+decision = "allow"
+priority = 100
 
-# [[rule]]
-# toolName = "run_shell_command"
-# commandPrefix = "ls"
-# decision = "allow"
-# priority = 100
+[[rule]]
+toolName = "run_shell_command"
+commandPrefix = "cat"
+decision = "allow"
+priority = 100
 
-# [[rule]]
-# toolName = "run_shell_command"
-# commandPrefix = "cat"
-# decision = "allow"
-# priority = 100
+[[rule]]
+toolName = "run_shell_command"
+commandPrefix = "find"
+decision = "allow"
+priority = 100
 
-# Allow ls, cat, grep, or find in one rule
-# [[rule]]
-# toolName = "run_shell_command"
-# commandRegex = "^(ls|cat|grep|find)(\\s|$)"
-# decision = "allow"
-# priority = 100
+[[rule]]
+toolName = "run_shell_command"
+commandPrefix = "gemini --help"
+decision = "allow"
+priority = 100
+
+[[rule]]
+toolName = "run_shell_command"
+commandPrefix = "git commit"
+decision = "allow"
+priority = 100
+
+[[rule]]
+toolName = "run_shell_command"
+commandPrefix = "git diff"
+decision = "allow"
+priority = 100
+
+[[rule]]
+toolName = "run_shell_command"
+commandPrefix = "git status"
+decision = "allow"
+priority = 100
+
+[[rule]]
+toolName = "run_shell_command"
+commandPrefix = "grep"
+decision = "allow"
+priority = 100
+
+[[rule]]
+toolName = "run_shell_command"
+commandPrefix = "ls"
+decision = "allow"
+priority = 100
+
+[[rule]]
+toolName = "run_shell_command"
+commandPrefix = "python -m unittest"
+decision = "allow"
+priority = 100
+
+[[rule]]
+toolName = "run_shell_command"
+commandPrefix = "python3 -m unittest"
+decision = "allow"
+priority = 100
+
+[[rule]]
+toolName = "run_shell_command"
+commandPrefix = "ruff check"
+decision = "allow"
+priority = 100
+
+[[rule]]
+toolName = "run_shell_command"
+commandPrefix = "source .venv/bin/activate"
+decision = "allow"
+priority = 100
+
+[[rule]]
+toolName = "run_shell_command"
+commandPrefix = "tree"
+decision = "allow"
+priority = 100
+
+[[rule]]
+toolName = "run_shell_command"
+commandPrefix = "wc"
+decision = "allow"
+priority = 100
+
+[[rule]]
+toolName = "run_shell_command"
+commandPrefix = "which"
+decision = "allow"
+priority = 100
+
+[[rule]]
+mcpName = "elisp-dev"
+toolName = "elisp-describe-function"
+decision = "allow"
+priority = 100
+
+[[rule]]
+mcpName = "elisp-dev"
+toolName = "elisp-describe-variable"
+decision = "allow"
+priority = 100
+
+[[rule]]
+mcpName = "elisp-dev"
+toolName = "elisp-get-function-definition"
+decision = "allow"
+priority = 100
+
+[[rule]]
+mcpName = "elisp-dev"
+toolName = "elisp-info-lookup-symbol"
+decision = "allow"
+priority = 100
+
+[[rule]]
+mcpName = "elisp-dev"
+toolName = "elisp-read-source-file"
+decision = "allow"
+priority = 100
