@@ -6,6 +6,11 @@ Misc AI chat configuration.
 ln -s ~/dotfiles/config-ai/SYSTEM.md ~/.claude/CLAUDE.md
 ln -s ~/dotfiles/config-ai/.claude/settings.json ~/.claude/settings.json
 
+# Codex
+
+ln -s ~/dotfiles/config-ai/SYSTEM.md ~/.codex/AGENTS.md
+ln -s ~/dotfiles/config-ai/.codex/config.toml ~/.codex/config.toml
+
 # Copilot
 
 ln -s ~/dotfiles/config-ai/SYSTEM.md ~/.copilot/copilot-instructions.md
