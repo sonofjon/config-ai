@@ -2,17 +2,17 @@
   "mcpServers": {
     "mcp-server": {
       "type": "stdio",
-      "command": "/home/joohv/.emacs.d/elpa/mcp-server/mcp-wrapper.sh",
+      "command": "/Users/andreas/.emacs.d/elpa/mcp-server/mcp-wrapper.sh",
       "tools": [
         "*"
       ],
       "args": [
-        "/home/joohv/.emacs.d/emacs-mcp-server.sock"
+        "/Users/andreas/.emacs.d/emacs-mcp-server.sock"
       ]
     },
     "elisp-dev": {
       "type": "stdio",
-      "command": "/home/joohv/.emacs.d/emacs-mcp-stdio.sh",
+      "command": "/Users/andreas/.emacs.d/emacs-mcp-stdio.sh",
       "tools": [
         "*"
       ],
