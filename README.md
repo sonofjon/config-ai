@@ -9,7 +9,8 @@ ln -s ~/dotfiles/config-ai/.claude/settings.json ~/.claude/settings.json
 # Copilot
 
 ln -s ~/dotfiles/config-ai/SYSTEM.md ~/.copilot/copilot-instructions.md
-ln -s ~/dotfiles/config-ai/.copilot/config.json ~/.copilot/config.json
+ln -s ~/dotfiles/config-ai/.copilot/settings.json ~/.copilot/settings.json
+ln -s ~/dotfiles/config-ai/.copilot/mcp-config.json ~/.copilot/mcp-config.json
 
 # Gemini
 
