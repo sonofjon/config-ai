@@ -100,19 +100,19 @@ Create or edit `~/.copilot/mcp-config.json`:
   "mcpServers": {
     "mcp-server": {
       "type": "stdio",
-      "command": "/home/joohv/.emacs.d/elpa/mcp-server/mcp-wrapper.sh",
-      "args": ["/home/joohv/.emacs.d/emacs-mcp-server.sock"],
+      "command": "/Users/andreas/.emacs.d/elpa/mcp-server/mcp-wrapper.sh",
+      "args": ["/Users/andreas/.emacs.d/emacs-mcp-server.sock"],
       "tools": ["*"]
     },
     "mcp-server-direct": {
       "type": "stdio",
       "command": "socat",
-      "args": ["-", "UNIX-CONNECT:/home/joohv/.emacs.d/emacs-mcp-server.sock"],
+      "args": ["-", "UNIX-CONNECT:/Users/andreas/.emacs.d/emacs-mcp-server.sock"],
       "tools": ["*"]
     },
     "elisp-dev": {
       "type": "stdio",
-      "command": "/home/joohv/.emacs.d/emacs-mcp-stdio.sh",
+      "command": "/Users/andreas/.emacs.d/emacs-mcp-stdio.sh",
       "args": [
         "--init-function=elisp-dev-mcp-enable",
         "--stop-function=elisp-dev-mcp-disable",
