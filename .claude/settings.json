@@ -35,11 +35,12 @@
     ],
     "ask": []
   },
+  "model": "opusplan",
   "enabledPlugins": {
     "pyright-lsp@claude-plugins-official": true
   },
   "spinnerTipsEnabled": false,
   "alwaysThinkingEnabled": true,
-  "model": "opusplan",
-  "autoMemoryDirectory": "~/.claude/memory"
+  "autoMemoryDirectory": "~/.claude/memory",
+  "theme": "auto"
 }
