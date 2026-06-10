@@ -134,3 +134,28 @@ Each MCP server entry requires:
 - **args**: Array of command-line arguments
 - **tools**: Array of allowed tools (use `["*"]` to allow all tools from the
   server)
+
+### Codex CLI
+
+Create or edit `~/.codex/config.toml`:
+
+```toml
+[mcp_servers.mcp-server]
+command = "/Users/andreas/.emacs.d/elpa/mcp-server/mcp-wrapper.sh"
+args = ["/Users/andreas/.emacs.d/emacs-mcp-server.sock"]
+
+[mcp_servers.elisp-dev]
+command = "/Users/andreas/.emacs.d/emacs-mcp-stdio.sh"
+args = [
+  "--init-function=elisp-dev-mcp-enable",
+  "--stop-function=elisp-dev-mcp-disable",
+  "--server-id=elisp-dev-mcp",
+]
+```
+
+**Configuration Format**
+
+Each MCP server entry requires:
+
+- **command**: Path to executable or command name
+- **args**: Array of command-line arguments
