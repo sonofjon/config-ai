@@ -71,7 +71,7 @@ M-x mcp-server-lib-install
 
 ```bash
 {claude | gemini} mcp add -s user -t stdio elisp-dev \
-  ~/.emacs.d/emacs-mcp-stdio.sh --init-function=elisp-dev-mcp-enable \
+  ~/.emacs.d/emacs-mcp-stdio.sh -- --init-function=elisp-dev-mcp-enable \
   --stop-function=elisp-dev-mcp-disable --server-id=elisp-dev-mcp
 ```
 
