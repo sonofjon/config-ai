@@ -5,6 +5,7 @@ args = [
   "--stop-function=elisp-dev-mcp-disable",
   "--server-id=elisp-dev-mcp",
 ]
+env = { XDG_RUNTIME_DIR = "/run/user/1000" }
 
 [mcp_servers.mcp-server]
 command = "/Users/andreas/.emacs.d/elpa/mcp-server/mcp-wrapper.sh"

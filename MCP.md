@@ -151,6 +151,7 @@ args = [
   "--stop-function=elisp-dev-mcp-disable",
   "--server-id=elisp-dev-mcp",
 ]
+env = { XDG_RUNTIME_DIR = "/run/user/1000" }
 ```
 
 **Configuration Format**
@@ -159,3 +160,6 @@ Each MCP server entry requires:
 
 - **command**: Path to executable or command name
 - **args**: Array of command-line arguments
+- **env**: Environment variables to set for the server process. For Codex
+  with `elisp-dev`, set `XDG_RUNTIME_DIR` so `emacsclient` can find the
+  Emacs server socket.
