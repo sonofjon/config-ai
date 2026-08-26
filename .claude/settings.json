@@ -41,6 +41,11 @@
   },
   "spinnerTipsEnabled": false,
   "alwaysThinkingEnabled": true,
+  "modelSettings": {
+    "claude-sonnet-5": {
+      "effortLevel": "xhigh"
+    }
+  },
   "autoMemoryDirectory": "~/.claude/memory",
   "theme": "auto"
 }
