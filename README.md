@@ -1,6 +1,12 @@
 # config-ai
 Misc AI chat configuration.
 
+This covers the primary per-tool links (system instructions and settings).
+Some tools also link additional directories on top of this (for example
+Claude's skills and commands directories, and Gemini's policies directory);
+those are only tracked in the setup-dotfiles repo's install.sh, not
+duplicated here.
+
 # Claude
 
 ln -s ~/dotfiles/config-ai/SYSTEM.md ~/.claude/CLAUDE.md
