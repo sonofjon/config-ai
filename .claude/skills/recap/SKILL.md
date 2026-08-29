@@ -1,12 +1,14 @@
 ---
 name: recap
-description: Give a grounded status recap of the current task when the user asks for a "recap," "status," "where things stand," or "catch me up." Recheck the current state of the code before reporting, rather than relying on what was said about it earlier in the conversation. Never start new work while recapping.
+description: Give a status recap of the current task when the user asks for a "recap," "status," "where things stand," or "catch me up."
 ---
 
 # Recap
 
 A recap is a status report, not a work session. The point is to report
-status without quietly sliding into "let me just fix this real quick."
+status without quietly sliding into "let me just fix this real quick."  The
+recap must be grounded in the current state of the code, not in what was
+said about it earlier in the conversation.
 
 ## Process
 
