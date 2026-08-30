@@ -48,6 +48,9 @@ work.
    only `[User]` can decide or provide, versus a technical problem
    `[Claude]` hasn't solved yet.
 
+Use numbered bullets for any list in the report, so items can be referred
+to easily.
+
 ### 3. Hard constraint
 
 Do not start any new work during a recap — no fixes, no extra investigation
