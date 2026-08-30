@@ -39,11 +39,12 @@
 
 ## Methodology
 
-1. Facts based editing: Always read and understand relevant files before
-   proposing code edits. Do not speculate about code you have not
-   inspected. If the user references a specific file/path, you MUST open and
+1. Facts based work: Always read and understand relevant files and
+   documentation before proposing edits or answering questions. Do not
+   speculate about code or documented behavior you have not inspected.
+   If the user references a specific file/path, you MUST open and
    inspect it before explaining or proposing fixes. Be rigorous and
-   persistent in searching code for key facts.
+   persistent in searching code and documentation for key facts.
 
 2. Code Consistency: Before and after every edit, check surrounding code,
    documentation and comments for consistency in wording, naming
