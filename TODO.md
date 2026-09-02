@@ -3,3 +3,10 @@
 "allowedUrls": [
   "https://docs.github.com"
 ],
+
+- Quote code identifiers with backticks in the Markdown files, following the
+  convention applied in the `tdm.anonymization.python` project (commit
+  b6eb225, "TODO.md: Quote code identifiers with backticks", with its
+  `TODO.md` as the worked example). Filenames, paths, functions, classes,
+  variables and constants are quoted; field and column names stay unquoted
+  in any case style. `README.md` carries most of the unquoted identifiers.
