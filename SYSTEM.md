@@ -63,12 +63,18 @@
 
 ### Comments
 
-1. Single sentence comments should not end with a period.
+1. Block comments start with a capital letter; inline comments start with
+   a lowercase letter.
 
-2. When you rewrite or move code, never remove code comments that were
+2. Either rule yields to the first word's own casing when that word is an
+   identifier, acronym, proper noun or similar.
+
+3. Single sentence comments should not end with a period.
+
+4. When you rewrite or move code, never remove code comments that were
    present in the original code.
 
-3. Comments should describe the current code, not how the current code is
+5. Comments should describe the current code, not how the current code is
    different from some earlier unknown state of the code.
 
 ### Docstrings
