@@ -36,7 +36,7 @@
       "WebSearch"
     ],
     "deny": [
-      "Bash(git add*)"
+      "Bash(git add:*)"
     ],
     "ask": [],
     "defaultMode": "auto"
