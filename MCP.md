@@ -6,15 +6,16 @@ tools.
 
 ## MCP Servers
 
-### mcp-server (Pure Elisp MCP Server)
+### `mcp-server` (Pure Elisp MCP Server)
 
 General-purpose MCP server that exposes Emacs functionality to
 LLMs. Provides tools for reading and writing buffers, executing Elisp code,
-getting diagnostics from flycheck/flymake, running interactive commands, and
-managing files and windows. Includes comprehensive security controls with
-permission prompts for dangerous operations and sensitive file protection.
+getting diagnostics from `flycheck`/`flymake`, running interactive commands,
+and managing files and windows. Includes comprehensive security controls
+with permission prompts for dangerous operations and sensitive file
+protection.
 
-### elisp-dev-mcp (MCP Server for Agentic Elisp Development)
+### `elisp-dev-mcp` (MCP Server for Agentic Elisp Development)
 
 Specialized MCP server for Elisp development workflows. Provides tools for
 describing functions and variables, retrieving function definitions with
@@ -26,7 +27,7 @@ understand and work with Emacs Lisp codebases.
 
 ### Claude/Gemini
 
-#### mcp-server
+#### `mcp-server`
 
 **One-time Setup**
 
@@ -38,7 +39,7 @@ Option 1: Wrapper Script
   ~/.emacs.d/emacs-mcp-server.sock
 ```
 
-Option 2: Direct socat
+Option 2: Direct `socat`
 
 Prerequisites: `socat` (install with `sudo apt-get install socat`)
 
@@ -57,7 +58,7 @@ M-x mcp-server-start-unix
 
 Or configure automatic startup via `emacs-startup-hook`.
 
-#### elisp-dev-mcp
+#### `elisp-dev-mcp`
 
 **One-time Setup**
 
@@ -128,8 +129,8 @@ Create or edit `~/.copilot/mcp-config.json`:
 
 Each MCP server entry requires:
 
-- **type**: Transport type ("stdio" for command-based servers, "http" or
-  "sse" for URL-based)
+- **type**: Transport type (`stdio` for command-based servers, `http` or
+  `sse` for URL-based)
 - **command**: Path to executable or command name
 - **args**: Array of command-line arguments
 - **tools**: Array of allowed tools (use `["*"]` to allow all tools from the

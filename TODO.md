@@ -11,7 +11,7 @@
 - [ ] Should some of our instructions be converted into skills, for example
       instructions for git committing?
 
-- [ ] Quote code identifiers with backticks in the Markdown files, following
+- [x] Quote code identifiers with backticks in the Markdown files, following
       the convention applied in the `tdm.anonymization.python` project
       (commit b6eb225, "TODO.md: Quote code identifiers with backticks",
       with its `TODO.md` as the worked example). Filenames, paths,

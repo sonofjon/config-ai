@@ -55,9 +55,9 @@
 1. Ensure lines do not exceed 79 characters.
 
 2. Don't include the data type in variable names, for example a string
-   variable containing an address should be named 'address', not
-   'addess_str'; a class containing animal types should be named 'Animals',
-   not 'AnimalsClass'.
+   variable containing an address should be named `address`, not
+   `addess_str`; a class containing animal types should be named `Animals`,
+   not `AnimalsClass`.
 
 ## Documentation
 
@@ -111,13 +111,14 @@
 
 ### AI
 
-1. If an instructions, context or memory file (e.g. AGENTS.md, CLAUDE.md,
-   GEMINI.md, copilot-instructions.md or similar) exists for the current
-   project, always keep it up-to-date with any code changes applied.
+1. If an instructions, context or memory file (e.g. `AGENTS.md`,
+   `CLAUDE.md`, `GEMINI.md`, `copilot-instructions.md` or similar) exists
+   for the current project, always keep it up-to-date with any code changes
+   applied.
 
 ### Project Files
 
-1. If a README.md or other documentation file exists for the current
+1. If a `README.md` or other documentation file exists for the current
    project, always keep it up-to-date with any code changes applied.
 
 ### Tests
