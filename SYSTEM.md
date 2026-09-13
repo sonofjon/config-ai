@@ -107,6 +107,12 @@
 
 3. NEVER commit changes unless the user explicitly asks for it.
 
+### Markdown
+
+1. Quote code identifiers with backticks: filenames, paths, functions,
+   classes, variables, constants, or similar. Field and column names stay
+   unquoted regardless of case style.
+
 ## Maintenance
 
 ### AI
