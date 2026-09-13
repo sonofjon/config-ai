@@ -1,5 +1,5 @@
 ---
-name: recap
+name: my-recap
 description: Give a status recap of the current task when the user asks for a "recap," "status," "where things stand," or "catch me up."
 ---
 
