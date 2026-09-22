@@ -3,9 +3,13 @@ Misc AI chat configuration.
 
 This covers the primary per-tool links (system instructions and settings).
 Some tools also link additional directories on top of this (for example
-Claude's skills, commands, and memory directories, and Gemini's policies
-directory); those are only tracked in the setup-dotfiles repo's
-`install.sh`, not duplicated here.
+Claude's skills, commands, and memory directories; Gemini's policies
+directory; and the shared `.agents/skills` directory linked for Copilot
+CLI, Codex CLI, and Gemini CLI); those are only tracked in the
+setup-dotfiles repo's `install.sh`, not duplicated here.
+
+`.claude/skills` is a symlink to `.agents/skills`, so it uses the same
+files instead of a separate copy.
 
 # Claude
 
