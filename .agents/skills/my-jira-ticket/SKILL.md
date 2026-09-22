@@ -42,7 +42,8 @@ Titel: names the functional outcome of the change, not how it is
 implemented.
 
 Bakgrund: the situation as it exists today and why a change is needed, with
-mechanism only as far as needed to understand it.
+mechanism only as far as needed to understand it. End with a sentence
+naming what is needed to close that gap, not how it will be implemented.
 
 Nytta: the actual motivation for the change. If it is not known, ask rather
 than assume one.
