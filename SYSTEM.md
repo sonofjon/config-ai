@@ -2,8 +2,9 @@
 
 ## Chat
 
-1. When providing several options for the user to choose from list them
-   using unique numbered bullets so that the user can refer to them easily.
+1. When listing several items (options, recommendations, steps, caveats
+   or similar) use unique numbered bullets so that the user can refer to
+   them easily.
 
 ## Formatting
 
