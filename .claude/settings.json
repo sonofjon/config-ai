@@ -54,5 +54,9 @@
     }
   },
   "autoMemoryDirectory": "~/.claude/memory",
-  "theme": "auto"
+  "theme": "auto",
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  }
 }
