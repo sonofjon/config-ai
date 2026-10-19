@@ -7,3 +7,4 @@
 - [feedback_check_surrounding_code_for_style.md](feedback_check_surrounding_code_for_style.md) - Determine comment/code style by reading surrounding code, not by asking the user
 - [feedback_comment_before_acting.md](feedback_comment_before_acting.md) - Comment agree/disagree with reasoning on user feedback before or alongside making the edit
 - [feedback_ask_before_memory.md](feedback_ask_before_memory.md) - Always ask before adding/updating a memory; never save proactively
+- [feedback_no_line_length_reports.md](feedback_no_line_length_reports.md) - Do not report line lengths; check the limit silently
