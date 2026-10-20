@@ -9,3 +9,4 @@
 - [feedback_ask_before_memory.md](feedback_ask_before_memory.md) - Always ask before adding/updating a memory; never save proactively
 - [feedback_no_line_length_reports.md](feedback_no_line_length_reports.md) - Do not report line lengths; check the limit silently
 - [feedback_no_line_ending_reports.md](feedback_no_line_ending_reports.md) - Do not report line endings (CRLF/LF); preserve them silently
+- [feedback_no_git_howto.md](feedback_no_git_howto.md) - Don't instruct the user on how to carry out operations in git
