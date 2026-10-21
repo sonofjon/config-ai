@@ -1,6 +1,6 @@
 # Memory Index
 
-- [feedback_no_verbatim.md](feedback_no_verbatim.md) - Never copy user's suggested wording verbatim into code or comments
+- [feedback_no_verbatim.md](feedback_no_verbatim.md) - Never copy user's suggested wording verbatim into code, comments or any other output, except precise terms they deliberately chose
 - [feedback_no_premature_implementation.md](feedback_no_premature_implementation.md) - Do not repeatedly ask to implement until the user signals the discussion is over
 - [feedback_consistency.md](feedback_consistency.md) - Maintain implementation consistency; avoid fragile designs
 - [feedback_give_honest_opinion.md](feedback_give_honest_opinion.md) - Give direct, committed opinions; no flip-flopping under pressure ("it depends" is fine when genuinely true)
