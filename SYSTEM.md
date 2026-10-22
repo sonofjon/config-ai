@@ -4,7 +4,15 @@
 
 1. When listing several items (options, recommendations, steps, caveats
    or similar) use unique numbered bullets so that the user can refer to
-   them easily.
+   them easily:
+
+    1.1 For a single list, number the items 1, 2, 3, and so on.
+
+    1.2 For several lists, prefix the item numbers with A in the first
+    list, B in the second, and so on: A.1, A.2, then B.1, B.2.
+
+    1.3 For nested items, add a number to the parent's label: 1.1, 1.2
+    under item 1, and A.1.1, A.1.2 under item A.1.
 
 ## Formatting
 
