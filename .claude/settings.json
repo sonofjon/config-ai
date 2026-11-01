@@ -8,7 +8,6 @@
       "Bash(gh issue:*)",
       "Bash(gh release:*)",
       "Bash(gh search:*)",
-      "Bash(git commit:*)",
       "Bash(git diff:*)",
       "Bash(git log:*)",
       "Bash(git show:*)",
@@ -36,10 +35,10 @@
       "WebFetch",
       "WebSearch"
     ],
-    "deny": [
-      "Bash(git add:*)"
+    "deny": [],
+    "ask": [
+      "Bash(git commit:*)"
     ],
-    "ask": [],
     "defaultMode": "auto"
   },
   "model": "opusplan",
