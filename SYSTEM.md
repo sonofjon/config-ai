@@ -7,7 +7,9 @@
    response, so that the user can refer to them easily. When a response
    has more than one list, prefix each list's numbers with a letter
    (A.1, A.2, then B.1, B.2), and number nested items after their
-   parent (1.1, A.1.1).
+   parent (1.1, A.1.1). Items from earlier in the conversation keep
+   their labels; new items get new labels that continue the existing
+   sequence.
 
 ## Formatting
 
